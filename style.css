@@ -91,3 +91,137 @@ body{
     border-radius: 50px;
     
 }
+/* About Sectin CSS End */
+
+
+/* Recipies Section CSS Start */
+
+.recipies-section{
+    margin:100px 50px;
+}
+.recipies-head{
+    text-align: center;
+}
+.recipies-head h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.recipies-head p{
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 50px 300px;
+}
+.recipies-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.recipies-item{
+    width: 30%;
+    height: 550px;
+    margin-left: 30px;
+    box-shadow: 7px 5px 20px grey;
+    border-radius: 15px;
+}
+.recipies-item:nth-child(1){
+    margin-left: 0px;
+}
+.recipies-item img{
+    width: 90%;
+    height: 300px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+.recipies-item h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.recipies-item p{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+    line-height: 1.5;
+    margin:10px 25px;
+}
+
+/* Recipies Section CSS End */
+
+
+
+/* Counter Section CSS Start */
+
+.counter-section{
+    height: 200px;
+    margin:100px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px grey;
+}
+.count-item{
+    text-align: center;
+}
+.count-item h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.count-item p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* Counter Section CSS End */
+
+/* Contact Section CSS Start */
+
+.contact-section{
+    margin:100px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-form{
+    width: 50%;
+}
+.contact-form h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+input{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 20px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+textarea{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 20px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+.location{
+    margin-top: 80px;
+}
+iframe{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+/* Contact Section CSS End */
