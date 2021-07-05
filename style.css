@@ -89,7 +89,6 @@ body{
     margin-left: 40px;
     padding:15px 25px;
     border-radius: 50px;
-    
 }
 /* About Sectin CSS End */
 
@@ -222,6 +221,34 @@ iframe{
     border-radius: 10px;
     margin-left: 20px;
 }
-
+.contact-form a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange,tomato);
+    margin-left: 10px;
+    margin-top: 50px;
+    padding:15px 30px;
+    border-radius: 50px;
+}
 
 /* Contact Section CSS End */
+
+/* Footer Secetion CSS Start */
+footer{
+    height: 200px;
+    text-align: center;
+    background: rgb(12, 12, 12);
+}
+footer h1{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 40px;
+}
+footer p{
+    color: wheat;
+    font-size: 15px;
+}
+
+/* Footer Secetion CSS End */
